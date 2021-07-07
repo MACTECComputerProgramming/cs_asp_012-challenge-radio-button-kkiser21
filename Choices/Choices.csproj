@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Choices Pencil.png" />
+    <None Remove="ChoicesPen.png" />
+    <None Remove="ChoicesPhone.png" />
+    <None Remove="ChoicesTablet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Choices Pencil.png" />
+    <Resource Include="ChoicesPen.png" />
+    <Resource Include="ChoicesPhone.png" />
+    <Resource Include="ChoicesTablet.png" />
+  </ItemGroup>
+
+</Project>
